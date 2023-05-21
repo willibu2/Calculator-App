@@ -1,0 +1,33 @@
+.main {
+  text-align: end;
+}
+
+.number {
+  font-size: 5rem;
+}
+
+.main-theme-one {
+  background-color: hsl(224, 36%, 15%);
+}
+.main-theme-two {
+  background-color: hsl(0, 0%, 93%);
+}
+.main-theme-three {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.number-theme-one {
+  color: hsl(0, 0%, 100%);
+}
+.number-theme-two {
+  color: hsl(60, 10%, 19%);
+}
+.number-theme-three {
+  color: hsl(52, 100%, 62%);
+}
+
+@media (max-width: 500px) {
+  .number {
+    font-size: 4rem;
+  }
+}

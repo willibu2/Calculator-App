@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-theme-one {
+  color: #fff;
+}
+.main-theme-two {
+  color: hsl(60, 10%, 19%);
+}
+.main-theme-three {
+  color: yellow;
+}
+
+.title {
+  font-size: 3rem;
+  color: inherit;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: inherit;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.numbers-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.numbers-container p {
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+.buttons-container {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.6rem;
+  border-radius: 1rem;
+}
+
+.theme-one {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.theme-two {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.theme-three {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.btn {
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.first {
+  background-color: hsl(6, 63%, 50%);
+}
+
+.second {
+  background-color: hsl(25, 98%, 40%);
+}
+
+.third {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.inactive {
+  background-color: transparent !important;
+}
